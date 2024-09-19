@@ -17,8 +17,16 @@
 4. Quartiles help group ordered data into buckets – the first quartile separates the lowest 25 percent of the data from the top 75 percent, the second quartile (same as the median) divides the dataset in half, and the third quartile separates the lowest 75 percent from the top 25 percent. Find the values that define the first, second, and third quartiles for each half-marathon.
 
 5. Is there a year in which runners seem slower or faster? Formulate a hypothesis for any apparent differences.
+*a chart
+2019 is the year where runners seemed faster. Upon analysis on the mean and median completion time 2019 semi marathon mean is only less than 30 seconds worse than the best years and the median time is also only 30 seconds worse than the worst year. The mean and median time for the marathon are significantly less than the other years in comparison. The median time is at least 4 minutes better than the others. 
 
+The percentage of people in 2019 they have the highest percentage  
+The hypothesis
 6. Scott Wietecha has won the Rock and Roll Marathon for 7 years in a row. Compute and display the difference between Wietecha’s time and the next fastest runner for each year.
+
+=XLOOKUP(D31,'2016_Marathon'!E:E,'2016_Marathon'!D:D,,0)
+*Xlookup
+*Small
 
 #### BONUS: Find the top three marathon runners for 2016, 2017, 2018, and 2019. Remove any duplicates across years (i.e., Scott Wietecha should only be in the list once). How many unique runners finished at one of the top 3 spots in the past 4 races? In how many of the 4 years did each top 3 runner finish? How has each runner’s time changed from year to year?
 
